@@ -1,0 +1,2 @@
+https://bootstrap-vue.org/docs
+https://vuejs.org/api/sfc-script-setup.html#basic-syntax

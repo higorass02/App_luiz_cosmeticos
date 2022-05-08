@@ -1,0 +1,24 @@
+{
+  "name": "app_luiz_cosmeticos",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "bootstrap-vue": "^2.22.0",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "vite": "^2.9.5"
+  }
+}
