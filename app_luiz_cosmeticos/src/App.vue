@@ -1,24 +1,25 @@
-<script setup>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import Menu from './components/MenuSide.vue'
-import Category from './components/Category.vue'
-import NewProduct from './components/products/NewProducts.vue'
-import ListMostSell from './components/most_sell/ListMostSell.vue'
-import NewsLatter from './components/new_latter/NewsLatter.vue'
-</script>
-
 <template>
   <div>
     <Header/>
-    <Menu/>  
     <Category/>
     <NewProduct/>
     <ListMostSell/>
     <NewsLatter/>
+    <MenuConntainer/>
     <Footer/>
   </div>
 </template>
+
+<script setup>
+  import Header from './components/Header.vue'
+  import Footer from './components/Footer.vue'
+  import Category from './components/Category.vue'
+  import NewProduct from './components/products/NewProducts.vue'
+  import ListMostSell from './components/most_sell/ListMostSell.vue'
+  import NewsLatter from './components/new_latter/NewsLatter.vue'
+  import MenuConntainer from './components/MenuConntainer.vue'
+</script>
+
 <style>
 
 /*----------------------------*\

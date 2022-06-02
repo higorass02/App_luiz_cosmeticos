@@ -40,18 +40,21 @@
             </div>
         </div>
     </div>
-
     <div id="bottom-footer" class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <ul class="footer-payments">
-                        <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
-                        <li><a href="#"><i class="fa fa-credit-card"></i></a></li>
-                        <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+                        <!-- <li><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'faCcVisa' }"/></li>
+                        <li><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'faCcMastercard' }"/></li>
+                        <li><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'faCreditCard' }"/></li> -->
                     </ul>
                     <span class="copyright">
                         Copyright 2022 Todos os Direitos Reservados a EMPRESA
+                        <!-- <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'ccVisa' }"/> -->
+                        <!-- <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'ccMastercard' }"/>
+                        <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'creditCard' }"/> -->
+                        <!-- <font-awesome-icon icon="fa-credit-card" /> -->
                     </span>
                 </div>
             </div>
