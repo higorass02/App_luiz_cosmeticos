@@ -32,7 +32,15 @@
 
 <script>
 import { ref } from 'vue'
+import axios from 'axios'
 export default {
+  mounted () {
+    axios
+      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .then(function(){
+        console.log('asd')
+      })
+  }
 }
 </script>
 <style>

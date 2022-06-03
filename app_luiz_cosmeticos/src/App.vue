@@ -1,12 +1,13 @@
 <template>
   <div>
-    <Header/>
+    <!-- <Header/>
     <Category/>
     <NewProduct/>
     <ListMostSell/>
     <NewsLatter/>
     <MenuConntainer/>
-    <Footer/>
+    <Footer/> -->
+    <GetTokenAPI/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@
   import ListMostSell from './components/most_sell/ListMostSell.vue'
   import NewsLatter from './components/new_latter/NewsLatter.vue'
   import MenuConntainer from './components/MenuConntainer.vue'
+  import GetTokenAPI from './services/GetTokenAPI.vue'
 </script>
 
 <style>

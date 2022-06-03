@@ -2,7 +2,7 @@
   "name": "app_luiz_cosmeticos",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --https",
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "start": "node server.js"
@@ -12,6 +12,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "axios": "^0.27.2",
     "bootstrap-vue": "^2.22.0",
     "express": "^4.18.1",
     "vue": "^3.2.33",
