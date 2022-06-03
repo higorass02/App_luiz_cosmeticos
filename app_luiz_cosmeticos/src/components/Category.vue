@@ -31,15 +31,25 @@
 </template>
 
 <script>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import axios from 'axios'
+import GetCategorias from '../services/GetCategorias.vue'
+let categorias = null
 export default {
   mounted () {
-    axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(function(){
-        console.log('asd')
+    this.xama().then(data => console.log(data))
+    // .then( res => {
+    //   console.log(res)
+    //   console.log('dps de inserir')
+    // })
+  },
+  methods: {
+    async xama (){
+      return await new Promise((resolve) => {
+        let data = GetCategorias.methods.getCategory()
+        resolve(data);
       })
+    }
   }
 }
 </script>
